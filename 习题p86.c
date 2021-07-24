@@ -4,9 +4,9 @@ int main()
 {
 double a,b,c,disc,x1,x2,p,q,h;
 scanf("%lf%lf%lf",&a,&b,&c);
-h=b*b-4*a*c;  //²»ÄÜÓÃ4ac£¬Òª¼Ó*
-if(h<0)       //if,elseºó²»¼Ó';'
- printf("·½³ÌÎŞÊµ¸ù\n");
+h=b*b-4*a*c;  //ä¸èƒ½ç”¨4acï¼Œè¦åŠ *
+if(h<0)       //if,elseåä¸åŠ ';'
+ printf("æ–¹ç¨‹æ— å®æ ¹\n");
 else
 {
 disc=sqrt(b*b-4*a*c);
@@ -14,7 +14,7 @@ p=-b/(2*a);
 q=disc/(2*a);
 x1=p+q;
 x2=p-q;
-printf("ÓĞÊµ¸ù\nx1=%7.2lf\nx2=%7.2lf\n",x1,x2);
+printf("æœ‰å®æ ¹\nx1=%7.2lf\nx2=%7.2lf\n",x1,x2);
 } 
 return 0;
 }
